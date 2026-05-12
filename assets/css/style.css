@@ -1,0 +1,123 @@
+/* Custom Styles for Smart Gym Management System */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #111;
+    color: #eee;
+}
+
+.text-danger {
+    color: #ff3131 !important;
+}
+
+.bg-danger {
+    background-color: #ff3131 !important;
+}
+
+.btn-danger {
+    background-color: #ff3131;
+    border-color: #ff3131;
+}
+
+.btn-danger:hover {
+    background-color: #d62828;
+    border-color: #d62828;
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.hero-section {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/hero-bg.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    background-color: #222;
+    border: none;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #ff3131;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.plan-card {
+    border: 2px solid transparent;
+}
+
+.plan-card.active {
+    border-color: #ff3131;
+}
+
+.trainer-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.testimonial-card {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.footer {
+    border-top: 1px solid #333;
+}
+
+/* Form Styles */
+.form-control, .form-select {
+    background-color: #333;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #444;
+    border-color: #ff3131;
+    color: #fff;
+    box-shadow: none;
+}
+
+/* Admin Dashboard Styles */
+.sidebar {
+    min-height: 100vh;
+    background-color: #000;
+}
+
+.admin-nav .nav-link {
+    color: #bbb;
+    padding: 15px 20px;
+}
+
+.admin-nav .nav-link:hover, .admin-nav .nav-link.active {
+    color: #ff3131;
+    background-color: #111;
+}
